@@ -1,0 +1,37 @@
+{
+  "quiz": {
+    "quizTitle": "React Quiz",
+    "questions": [
+      {
+        "question": "What does JSX stand for?",
+        "answer": "JavaScript XML",
+        "options": ["JavaScript XML", "Java XML", "JSON XML", "JavaScript HTML"]
+      },
+      {
+        "question": "Which hook is used to perform side effects in a functional component?",
+        "answer": "useEffect",
+        "options": ["useState", "useEffect", "useContext", "useReducer"]
+      },
+      {
+        "question": "What is React?",
+        "answer": "A JavaScript library for building user interfaces",
+        "options": [
+          "A programming language",
+          "A text editor",
+          "A JavaScript framework",
+          "A JavaScript library for building user interfaces"
+        ]
+      },
+      {
+        "question": "In React, which component is responsible for rendering UI based on props?",
+        "answer": "Functional Component",
+        "options": [
+          "Class Component",
+          "State Component",
+          "Functional Component",
+          "Render Component"
+        ]
+      }
+    ]
+  }
+}
