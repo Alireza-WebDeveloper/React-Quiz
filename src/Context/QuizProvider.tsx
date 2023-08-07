@@ -26,11 +26,9 @@ const reducer = (state: QuizStateType, action: ActionType) => {
       break;
     case 'start':
       state.active = true;
-      state.currenAnswer = state.questions[state.index].answer;
       break;
     case 'next':
-      console.log(`${state.currenAnswer} , ${action.payload}`);
-      if (state.currenAnswer === action.payload) {
+      if (state.questions[state.index].answer === action.payload) {
         state.score += 1;
       }
       if (state.questions.length - 1 === state.index) {

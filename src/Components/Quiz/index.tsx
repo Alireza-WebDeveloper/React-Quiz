@@ -17,8 +17,6 @@ const Quiz = () => {
   // Function to handle moving to the next question
   const handleNextQuestion = () => {
     if (selectOption) {
-      console.log(selectOption);
-
       // Dispatch the selected option to the context
       const sendOption = questions[index].options[selectOption - 1];
       dispatch({
